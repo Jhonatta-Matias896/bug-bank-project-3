@@ -1,6 +1,6 @@
 const elements = require ('../../support/Elements/global-elements').ELEMENTS
 const faker = require ('faker-br');
-const { it } = require('faker-br/lib/locales');
+
 
 describe('Teste na tela de cadastro', () => {
     before(() => {

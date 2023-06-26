@@ -5,7 +5,6 @@ describe('Login inválido', () => {
         cy.visit('/')
     });
     it.only('Teste 01: Email sem o @', () => {
-
         const msg = 'Inclua um "@" no endereço de e-mail."'
         const msg2 = '" está com um "@" faltando.'
 
